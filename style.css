@@ -237,7 +237,6 @@ button:active {
 
 .highlight__wrapper {
   display: flex;
-  flex-wrap: wrap;
 }
 .highlight {
   padding: 0 24px;
@@ -369,7 +368,7 @@ margin-bottom: 24px;
     }
 
     button{
-        font-size: 10px;
+        font-size: 18px;
     }
     .book{
         width: 50%;
@@ -385,6 +384,10 @@ margin-bottom: 24px;
     }
     .highlight{
         width: 100%;
+    }
+    .highlight__wrapper{
+        display: flex;
+        flex-wrap: wrap;
     }
     .highlight:not(:last-child){
         margin-bottom: 24px;
